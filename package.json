@@ -1,0 +1,56 @@
+{
+  "name": "DS_Portal",
+  "main_config" : {
+    "type" : "static",
+    "domain" : "lab7.dev",
+    "notifications" : true,
+    "browser_versions_covered": 3,
+    "js_loc": "./js/script.js",
+    "js_dest": "./js/",
+    "js_name": "script.min.js",
+    "less_loc": "./css/less/style.less",
+    "mixin_loc": "./css/less/",
+    "css_dest": "./css/",
+    "css_name": "style.css",
+    "browser_sync_files" : [
+      "*.html",
+      "*.php",
+      "css/**/*.css",
+      "img/**/*.png",
+      "img/**/*.jpg",
+      "js/**/*.js"
+    ]
+  },
+
+  "version": "1.0.1",
+  "description": "Gulp file used internally for various projects",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "1.9.1",
+    "del": "1.1.1",
+    "gulp": "3.8.10",
+    "gulp-concat": "2.4.2",
+    "gulp-if": "1.2.5",
+    "gulp-jshint": "1.9.0",
+    "gulp-less": "1.3.7",
+    "gulp-notify": "2.1.0",
+    "gulp-plumber": "0.6.6",
+    "gulp-rename": "1.2.0",
+    "gulp-shopify-upload": "^1.0.12",
+    "gulp-symlink": "2.1.0",
+    "gulp-uglify": "1.0.2",
+    "gulp-watch": "1.2.1",
+    "less-plugin-autoprefix": "1.3.0",
+    "less-plugin-clean-css": "1.4.0",
+    "map-stream": "0.0.5",
+    "pwuid": "1.0.2"
+  },
+  "scripts": {},
+  "author": "Glenn Naessens",
+  "contributors": [
+    {
+      "name": "Mike Northorp"
+    }
+  ]
+}
